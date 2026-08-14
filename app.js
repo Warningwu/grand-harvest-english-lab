@@ -121,7 +121,7 @@ const lessons=[
 ["The main features can include soft topsheets, fast acquisition, strong absorbency, leak guards, and wetness indicators.","主要功能可以包括柔软面层、快速导流、强吸收、防漏隔边和尿显。"],
 ["Packaging, piece count, language, and artwork can be customized for the local market.","包装、片数、语言和设计稿都可以根据当地市场定制。"],
 ["For pet-care absorbent products, we can also coordinate suitable solutions through our wider supply network.","对于宠物吸收护理产品，我们也可以通过更广泛的供应网络协调合适方案。"],
-["Please tell me your target consumer, retail channel, and price point so we can recommend the right specification.","请告诉我目标消费者、零售渠道和价格点，以便我们推荐合适规格。"]}];
+["Please tell me your target consumer, retail channel, and price point so we can recommend the right specification.","请告诉我目标消费者、零售渠道和价格点，以便我们推荐合适规格。"]]}];
 lessons.forEach(l=>l.phrases=l.phrases.map((p,i)=>({id:l.id+i,en:p[0],zh:p[1]})));
 const all=lessons.flatMap(l=>l.phrases),store={learned:"gh-learned",favorites:"gh-favorites",lesson:"gh-lesson"};
 let active=localStorage.getItem(store.lesson)||"intro",learned=JSON.parse(localStorage.getItem(store.learned)||"[]"),favorites=JSON.parse(localStorage.getItem(store.favorites)||"[]"),showChinese=true,speed=.9,query="";
