@@ -54,7 +54,74 @@ const lessons=[
 ["My flight has been delayed, so I may arrive later than planned.","我的航班延误了，抵达时间可能比计划晚。"],
 ["Is there enough time to visit the factory before our evening meeting?","晚间会议前是否有足够时间参观工厂？"],
 ["I will send you my updated itinerary once it is confirmed.","行程确认后，我会把最新安排发给你。"],
-["Thank you for your hospitality and for arranging the visit.","感谢你的热情接待和参观安排。"]]}];
+["Thank you for your hospitality and for arranging the visit.","感谢你的热情接待和参观安排。"]]},
+{id:"guangzhou",icon:"🚇",title:"广州交通",subtitle:"Guangzhou transport",phrases:[
+["Guangzhou has several major railway hubs, including Guangzhou South, Guangzhou Baiyun, Guangzhou East, Guangzhou North, and Guangzhou Railway Station.","广州有多个主要铁路枢纽，包括广州南站、广州白云站、广州东站、广州北站和广州站。"],
+["Guangzhou Baiyun International Airport is connected to the city by Metro Line 3.","广州白云国际机场可通过地铁3号线连接市区。"],
+["For high-speed rail travel, Guangzhou South is usually the most important station.","乘坐高铁时，广州南站通常是最重要的车站。"],
+["Please check the exact station name before you book a ticket, because Guangzhou has several large stations.","广州有多个大型车站，订票前请确认准确的车站名称。"],
+["The metro is usually the most reliable way to avoid traffic during peak hours.","高峰时段，地铁通常是避开道路拥堵最可靠的方式。"],
+["From the airport or railway station, we can arrange a car if you are carrying samples or heavy luggage.","如果你携带样品或大件行李，我们可以安排车辆到机场或火车站接送。"]]},
+{id:"southstation",icon:"🚄",title:"广州南站",subtitle:"South Station connections",phrases:[
+["Guangzhou South Railway Station is one of the most important transport hubs in the Greater Bay Area.","广州南站是粤港澳大湾区最重要的交通枢纽之一。"],
+["It offers convenient high-speed rail connections to Hong Kong, Shenzhen, Zhuhai, and many other cities.","这里有前往香港、深圳、珠海及众多城市的便捷高铁线路。"],
+["Metro Lines 2, 7, and 22 connect at Guangzhou South Railway Station.","广州地铁2号线、7号线和22号线在广州南站交汇。"],
+["Foshan Metro Line 2 also reaches Guangzhou South Railway Station.","佛山地铁2号线也可直达广州南站。"],
+["Panyu Intercity Station is connected underground to the Guangzhou South transport complex.","城际番禺站通过地下空间与广州南站综合交通枢纽相连。"],
+["This location makes it easy to reach major cities across the Greater Bay Area within about an hour.","从这里出发，大约一小时可覆盖大湾区多个主要城市。"]]},
+{id:"southdistrict",icon:"🏙️",title:"南站新商圈",subtitle:"Emerging business district",phrases:[
+["The Guangzhou South Station business district is developing into an international transport-linked commercial hub.","广州南站商务区正在发展成为国际枢纽型商圈。"],
+["The area is bringing together transport, offices, hotels, retail, dining, and entertainment.","该区域正在汇集交通、办公、酒店、零售、餐饮和娱乐功能。"],
+["Tianghuan Guangzhou South is expected to add a major new shopping and lifestyle destination beside the station.","天環·广州南将为车站周边带来新的大型购物与生活方式目的地。"],
+["More commercial and office projects are taking shape around the station.","广州南站周边正有更多商业与办公项目陆续形成。"],
+["The goal is to turn transit passengers into business visitors and long-stay consumers.","发展目标之一，是让过境旅客转化为商务访客和停留消费人群。"],
+["The area also links naturally with the Chimelong-Wanbo business district and the wider Panyu economy.","该片区也与长隆万博商务区及番禺整体经济自然联动。"]]},
+{id:"office",icon:"📍",title:"办公室与接待",subtitle:"Lofu Plaza & Anyi Center",phrases:[
+["Our Guangzhou office is in Rooms 809 to 811, Lofu United Plaza, No. 233 Hanxi Avenue West, Panyu District.","我们的广州办公室位于番禺区汉溪大道西233号路福联合广场809至811室。"],
+["Lofu United Plaza is only a short distance from Guangzhou South Railway Station.","路福联合广场距离广州南站很近。"],
+["The building is also known as the Guangzhou Eye because of its distinctive design.","这栋楼因独特的外形也被称为“广州之眼”。"],
+["Radisson RED Guangzhou South Railway Station is located on the upper floors of the same building.","广州南站丽芮酒店位于同一栋楼的高层。"],
+["Visiting clients can stay in the building and reach our office without a long transfer.","来访客户可以住在同一栋楼，无需长距离转场即可到办公室。"],
+["The Anyi International Business Center provides a convenient base for meetings, temporary work, and onward travel.","安益国际业务中心为会议、临时办公和后续出行提供了便利据点。"]]},
+{id:"ibte",icon:"🎪",title:"IBTE展会术语",subtitle:"IBTE 2026 essentials",phrases:[
+["IBTE 2026 will be held from August 19 to 22 at Jakarta International Expo in Kemayoran.","IBTE 2026将于8月19日至22日在雅加达Kemayoran的JIEXPO举行。"],
+["The main categories include baby and maternity products, diapers, hygiene products, toys, and machinery.","主要品类包括母婴产品、纸尿裤、卫生用品、玩具和机械设备。"],
+["We are looking for distributors, importers, private-label customers, and long-term partners.","我们希望寻找经销商、进口商、自有品牌客户和长期合作伙伴。"],
+["OEM means we manufacture according to the customer's brand and specification.","OEM是指我们按照客户的品牌和规格进行生产。"],
+["ODM means we can also support product development and design.","ODM是指我们还可以支持产品开发和设计。"],
+["Key commercial terms include MOQ, lead time, payment terms, and delivery schedule.","关键商务术语包括最小起订量、生产周期、付款条件和交货计划。"]]},
+{id:"booth",icon:"🤝",title:"展位接待",subtitle:"Visitor conversations",phrases:[
+["Welcome to our booth. May I know which market you are from?","欢迎来到我们的展位。请问您来自哪个市场？"],
+["Are you looking for finished products, private-label manufacturing, or a distribution partnership?","您是在寻找成品、自有品牌代工，还是经销合作？"],
+["Which product category and price segment are you most interested in?","您最感兴趣的是哪个产品品类和价格区间？"],
+["May I know your expected monthly order volume?","方便了解一下您预计的月度订单量吗？"],
+["Let me show you the key features and explain the differences between these samples.","我来向您介绍主要特点，并说明这些样品之间的差异。"],
+["Could we exchange contact details and arrange a follow-up meeting after the show?","我们可以交换联系方式，并在展会后安排跟进会议吗？"],
+["I will send you our catalogue, quotation, and sample plan after I confirm your requirements.","确认您的需求后，我会发送目录、报价和样品方案。"],
+["Thank you for visiting us. I will summarize today's discussion and contact you shortly.","感谢您的来访。我会整理今天的讨论内容并尽快联系您。"]]},
+{id:"kangyi",icon:"🏭",title:"康怡公司简介",subtitle:"Kangyi company profile",phrases:[
+["Kangyi has focused on disposable hygiene products for more than thirty years.","康怡专注于一次性卫生用品已有三十多年。"],
+["It is an integrated manufacturer with product development, production, and market-service capabilities.","康怡是一家集产品开发、生产和市场服务能力于一体的综合制造商。"],
+["The company has extensive experience in baby care, feminine care, and adult care products.","公司在婴儿护理、女性护理和成人护理产品方面拥有丰富经验。"],
+["Our cooperation combines Kangyi's manufacturing experience with Grand Harvest's international business support.","我们的合作结合了康怡的制造经验和Grand Harvest的国际业务支持。"],
+["We focus on stable quality, practical product design, and long-term cooperation.","我们重视稳定质量、实用产品设计和长期合作。"],
+["We can support customers from initial product discussion through samples, production, and shipment.","我们可以从前期产品讨论，到样品、生产和出货，全程支持客户。"]]},
+{id:"capacity",icon:"⚙️",title:"生产与定制能力",subtitle:"Production & customization",phrases:[
+["Kangyi operates more than fifteen intelligent production lines for different hygiene-product categories.","康怡拥有十五条以上面向不同卫生用品品类的智能生产线。"],
+["The production range includes baby diapers, baby pants, adult diapers, sanitary napkins, and absorbent underpads.","生产范围包括婴儿纸尿裤、婴儿拉拉裤、成人纸尿裤、卫生巾和吸收护理垫。"],
+["We can adjust absorbency, materials, size, fit, and packaging for different market needs.","我们可以根据不同市场需求调整吸收量、材料、尺码、版型和包装。"],
+["Private-label projects can begin with a target price, a benchmark sample, or a performance requirement.","自有品牌项目可以从目标价格、对标样品或性能要求开始。"],
+["Before confirming capacity and lead time, we need the exact specification and order quantity.","确认产能和生产周期前，我们需要准确规格和订单数量。"],
+["We use sample evaluation and production checks to keep quality consistent.","我们通过样品评估和生产检查来保持质量稳定。"]]},
+{id:"products",icon:"🧷",title:"全线产品介绍",subtitle:"Full product range",phrases:[
+["Our baby-care range includes taped diapers and pull-up pants in different sizes and price levels.","婴儿护理系列包括不同尺码和价格层级的纸尿裤与拉拉裤。"],
+["Our adult-care range includes adult diapers, pull-up pants, and absorbent underpads.","成人护理系列包括成人纸尿裤、成人拉拉裤和吸收护理垫。"],
+["Our feminine-care range includes sanitary napkins for different flow levels and usage occasions.","女性护理系列包括适用于不同流量和使用场景的卫生巾。"],
+["We can develop economy, mid-range, and premium product solutions.","我们可以开发经济型、中端和高端产品方案。"],
+["The main features can include soft topsheets, fast acquisition, strong absorbency, leak guards, and wetness indicators.","主要功能可以包括柔软面层、快速导流、强吸收、防漏隔边和尿显。"],
+["Packaging, piece count, language, and artwork can be customized for the local market.","包装、片数、语言和设计稿都可以根据当地市场定制。"],
+["For pet-care absorbent products, we can also coordinate suitable solutions through our wider supply network.","对于宠物吸收护理产品，我们也可以通过更广泛的供应网络协调合适方案。"],
+["Please tell me your target consumer, retail channel, and price point so we can recommend the right specification.","请告诉我目标消费者、零售渠道和价格点，以便我们推荐合适规格。"]}];
 lessons.forEach(l=>l.phrases=l.phrases.map((p,i)=>({id:l.id+i,en:p[0],zh:p[1]})));
 const all=lessons.flatMap(l=>l.phrases),store={learned:"gh-learned",favorites:"gh-favorites",lesson:"gh-lesson"};
 let active=localStorage.getItem(store.lesson)||"intro",learned=JSON.parse(localStorage.getItem(store.learned)||"[]"),favorites=JSON.parse(localStorage.getItem(store.favorites)||"[]"),showChinese=true,speed=.9,query="";
