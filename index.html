@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#174c3d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="GH English Lab">
+  <title>Grand Harvest English Lab</title>
+  <meta name="description" content="Warning Wu's personalized business English learning lab.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-mark">GH</div><div><strong>English Lab</strong><span>Grand Harvest</span></div><button id="closeMenu">×</button></div>
+      <div class="progress-card"><div><span>学习进度</span><strong id="progressText">0 / 48</strong></div><div class="progress-track"><i id="progressBar"></i></div><small>学习记录自动保存在这台设备</small></div>
+      <nav id="lessonNav"><p>课程目录</p></nav>
+    </aside>
+    <section class="content">
+      <header>
+        <button class="menu-button" id="openMenu">☰</button>
+        <label class="search"><span>⌕</span><input id="searchInput" placeholder="搜索英文或中文…"></label>
+        <div class="header-actions"><button class="selected" id="chineseToggle">中译 开</button><select id="speedSelect"><option value=".75">0.75× 慢速</option><option value=".9" selected>0.9×</option><option value="1">1.0×</option><option value="1.1">1.1×</option></select></div>
+      </header>
+      <div class="hero"><div><span>WARNING'S BUSINESS ENGLISH</span><h1 id="lessonTitle">个人介绍</h1><p id="lessonSubtitle">Professional introduction</p></div><div class="hero-stat"><strong id="phraseCount">6</strong><span>句核心表达</span></div></div>
+      <div class="phrase-list" id="phraseList"></div>
+      <footer><span>Grand Harvest English Lab · iPad Edition</span><span>点击 ▶ 朗读 · 星号收藏 · 学完后标记掌握</span></footer>
+    </section>
+    <button class="backdrop" id="backdrop"></button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
